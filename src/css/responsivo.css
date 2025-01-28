@@ -1,0 +1,59 @@
+@media(max-width: 750px){
+    .main-mbts{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cartao-mbt{
+        max-width: 300px;
+    }
+
+    .cartao-mbt .cartao-informacoes{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-mbt .cartao-informacoes h3{
+        font-size: 16px;
+    }
+
+    .listagem{
+        max-width: 360px;
+    }
+
+    .listagem .tanks{
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .tank-t90a {
+        background-image: url("../imagens/russia-flag.jpg");
+        background-size: 110%;
+    }
+
+    .tank-t80u {
+        background-image: url("../imagens/russia-flag.jpg");
+        background-size: 102%;
+    }
+
+    .tank-type10 {
+        background-image: url("../imagens/japan-flag.jpg");
+        background-size: 111%;
+    }
+
+    .tank-strv {
+        background-image: url("../imagens/sweden-flag.jpg");
+        background-size: 120%;
+    }
+}

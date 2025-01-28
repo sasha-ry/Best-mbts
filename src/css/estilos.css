@@ -1,0 +1,170 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("../imagens/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    backdrop-filter: blur(8px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-mbts {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.cartao-mbt {
+    display: none;
+    max-width: 360px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-mbt.aberto {
+    display: block;
+}
+
+.cartao-mbt img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.cartao-mbt .cartao-topo {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 30px 40px 0;
+}
+
+.cartao-mbt .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-mbt .tipo {
+    background-color: #d7c0da;
+    font-size: 12px;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.cartao-mbt .detalhes {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-mbt .cartao-informacoes {
+    background-image: url("../imagens/bk-inf.avif");
+    background-size: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border: 1px solid #000000;
+}
+
+.cartao-mbt .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.cartao-mbt .cartao-informacoes .descricao {
+    padding: 0 10px;
+    font-size: 15px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.tank-t90a {
+    background-image: url("../imagens/russia-flag.jpg");
+    background-size: 100%;
+}
+
+.tank-t80u {
+    background-image: url("../imagens/russia-flag.jpg");
+    background-size: 100%;
+}
+
+.tank-t90m {
+    background-image: url("../imagens/russia-flag.jpg");
+    background-size: 100%;
+}
+
+.tank-type10 {
+    background-image: url("../imagens/japan-flag.jpg");
+    background-size: 110%;
+}
+
+.tank-type90 {
+    background-image: url("../imagens/japan-flag.jpg");
+    background-size: 110%;
+}
+
+.tank-strv {
+    background-image: url("../imagens/sweden-flag.jpg");
+    background-size: 110%;
+}
+
+.nome {
+    color: #000000;
+}
+
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .tanks  img {
+    width: 25%;
+}
+
+.listagem .tanks  {
+    background-color: #7c807c;
+    border: 1px solid #000000;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    min-height: 70px;
+    transition: 0.15 ease-in-out;
+}
+
+.listagem .tanks:hover {
+    transform: scale(1.05);
+}
+
+.listagem .tanks  span {
+    padding-right: 20px;
+}
+
+.listagem .tanks.ativo {
+    background-color: #5f81dd;
+}
+span {
+    color: #000000;
+}
+
+
+
