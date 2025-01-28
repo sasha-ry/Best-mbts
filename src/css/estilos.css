@@ -73,7 +73,7 @@ main {
 
 .cartao-mbt .cartao-informacoes {
     background-image: url("../imagens/bk-inf.avif");
-    background-size: 50%;
+    background-size: 100%;
     display: flex;
     justify-content: space-between;
     padding: 80px 30px 50px;
